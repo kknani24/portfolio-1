@@ -1,0 +1,17 @@
+.upcoming-projects {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background */
+  font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
+}
+
+.upcoming-projects h2,
+.upcoming-projects p {
+  animation: colorChange 2s infinite; /* Adjusted animation speed */
+}
+
+@keyframes colorChange {
+  0% { color: #222; } /* Very dark gray */
+  50% { color: #fff; } /* White */
+  100% { color: #222; } /* Back to very dark gray */
+}

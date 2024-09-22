@@ -1,0 +1,15 @@
+import React from "react";
+import { Row } from "react-bootstrap";
+
+function Github() {
+  return (
+    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+         <strong className="purple"></strong>
+      </h1>
+      <p> GitHub Will Be Updated Soon........</p> {/* Placeholder text */}
+    </Row>
+  );
+}
+
+export default Github;
